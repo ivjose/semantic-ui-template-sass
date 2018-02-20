@@ -1,0 +1,50 @@
+@charset 'utf-8';
+
+
+/* 
+01-Settings – used with preprocessors and contain font, colors definitions, etc.
+*/
+
+@import './01-settings/fonts';
+
+
+/* 
+02-Tools – globally used mixins and functions.
+*/
+
+// @import './02-tools/mixins';
+
+/* 
+03-Generic – reset and/or normalize styles, box-sizing definition, framework "bootstrap", etc. 
+*/
+
+@import './03-generic/semantic-ui';
+
+/* 
+04-Elements – styling for bare HTML elements (like H1, A, etc.). 
+*/
+
+// @import './04-elements/html';
+// @import './04-elements/body';
+
+/* 
+05-Objects – class-based selectors which define undecorated design patterns,
+*/
+
+// @import './05-objects/o-hero-banner';
+
+
+/* 
+06-Components – specific UI components
+*/
+
+// @import './06-components/c-sidenav';
+
+
+/* 
+07-Trumps – utilities and helper classes with ability to override
+*/
+// @import './07-trumps/helper';
+
+
+//Custom Component
